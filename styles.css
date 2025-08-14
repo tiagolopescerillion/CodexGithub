@@ -1,5 +1,26 @@
-*{
-color: black;
+/* Minimalistic theme with purple accent */
+:root {
+    --background-color: #ffffff;
+    --text-color: #000000;
+    --muted-color: #666666;
+    --accent-color: #6a0dad;
+}
+
+body {
+    background-color: var(--background-color);
+    color: var(--text-color);
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 2rem;
+}
+
+.muted {
+    color: var(--muted-color);
+}
+
+.accent,
+a {
+    color: var(--accent-color);
 }
 
 
